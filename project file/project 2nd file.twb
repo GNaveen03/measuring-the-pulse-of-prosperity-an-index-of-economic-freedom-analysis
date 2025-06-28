@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Page    1 Table  1+ (Measuring the pulse of prosperity- An Index of eco...)' inline='true' name='federated.0xx1oo40c7wkjr1eibwwz0j2w6hl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Measuring the pulse of prosperity- An Index of eco...' name='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3'>
+            <connection class='pdf' cleaning='yes' compat='no' dataRefreshTime='' directory='' interpretationMode='257' origfilename='C:/Users/PRIYANKA/OneDrive/Documents/Measuring the pulse of prosperity- An Index of eco....pdf' password='' pgFrom='' pgTo='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    1 Table  1' table='[&apos;Page    1 Table  1$&apos;]' type='table'>
+            <columns gridOrigin='A1:B16:no:A1:B16:0' header='yes' outcome='2'>
+              <column datatype='string' name='●​' ordinal='0' />
+              <column datatype='string' name='Rule of Law:' ordinal='1' />
+            </columns>
+          </relation>
+          <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    1 Table  2' table='[&apos;Page    1 Table  2$&apos;]' type='table'>
+            <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='2'>
+              <column datatype='string' name='●​' ordinal='0' />
+              <column datatype='string' name='Higher per capita incomes: Freer economies tend to have higher average incomes and' ordinal='1' />
+            </columns>
+          </relation>
+          <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    2 Table  1' table='[&apos;Page    2 Table  1$&apos;]' type='table'>
+            <columns gridOrigin='A1:B9:no:A1:B9:0' header='yes' outcome='2'>
+              <column datatype='string' name='●​' ordinal='0' />
+              <column datatype='string' name='Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic' ordinal='1' />
+            </columns>
+          </relation>
+          <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    2 Table  2' table='[&apos;Page    2 Table  2$&apos;]' type='table'>
+            <columns gridOrigin='A1:B7:no:A1:B7:0' header='yes' outcome='2'>
+              <column datatype='string' name='●​' ordinal='0' />
+              <column datatype='string' name='Greater trade: Openness to international trade expands markets, increases competition,' ordinal='1' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Greater trade: Openness to international trade expands markets, increases competition,]' value='[Page    2 Table  2].[Greater trade: Openness to international trade expands markets, increases competition,]' />
+          <map key='[Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic]' value='[Page    2 Table  1].[Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic]' />
+          <map key='[Higher per capita incomes: Freer economies tend to have higher average incomes and]' value='[Page    1 Table  2].[Higher per capita incomes: Freer economies tend to have higher average incomes and]' />
+          <map key='[Rule of Law:]' value='[Page    1 Table  1].[Rule of Law:]' />
+          <map key='[●​ (Page    1 Table  2)]' value='[Page    1 Table  2].[●​]' />
+          <map key='[●​ (Page    2 Table  1)]' value='[Page    2 Table  1].[●​]' />
+          <map key='[●​ (Page    2 Table  2)]' value='[Page    2 Table  2].[●​]' />
+          <map key='[●​]' value='[Page    1 Table  1].[●​]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Page    1 Table  1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B16:no:A1:B16:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Page    1 Table  2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B8:no:A1:B8:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Page    2 Table  1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B9:no:A1:B9:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Page    2 Table  2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B7:no:A1:B7:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>●​</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[●​]</local-name>
+            <parent-name>[Page    1 Table  1]</parent-name>
+            <remote-alias>●​</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rule of Law:</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rule of Law:]</local-name>
+            <parent-name>[Page    1 Table  1]</parent-name>
+            <remote-alias>Rule of Law:</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>●​</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[●​ (Page    1 Table  2)]</local-name>
+            <parent-name>[Page    1 Table  2]</parent-name>
+            <remote-alias>●​</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Higher per capita incomes: Freer economies tend to have higher average incomes and</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Higher per capita incomes: Freer economies tend to have higher average incomes and]</local-name>
+            <parent-name>[Page    1 Table  2]</parent-name>
+            <remote-alias>Higher per capita incomes: Freer economies tend to have higher average incomes and</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>●​</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[●​ (Page    2 Table  1)]</local-name>
+            <parent-name>[Page    2 Table  1]</parent-name>
+            <remote-alias>●​</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic]</local-name>
+            <parent-name>[Page    2 Table  1]</parent-name>
+            <remote-alias>Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>●​</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[●​ (Page    2 Table  2)]</local-name>
+            <parent-name>[Page    2 Table  2]</parent-name>
+            <remote-alias>●​</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Greater trade: Openness to international trade expands markets, increases competition,</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Greater trade: Openness to international trade expands markets, increases competition,]</local-name>
+            <parent-name>[Page    2 Table  2]</parent-name>
+            <remote-alias>Greater trade: Openness to international trade expands markets, increases competition,</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Page    1 Table  1' datatype='table' name='[__tableau_internal_object_id__].[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]' role='measure' type='quantitative' />
+      <column caption='Page    1 Table  2' datatype='table' name='[__tableau_internal_object_id__].[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]' role='measure' type='quantitative' />
+      <column caption='Page    2 Table  1' datatype='table' name='[__tableau_internal_object_id__].[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]' role='measure' type='quantitative' />
+      <column caption='Page    2 Table  2' datatype='table' name='[__tableau_internal_object_id__].[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/PRIYANKA/OneDrive/Desktop/Page    1 Table  1+ (Measuring the pulse of prosperity- An Index of eco...).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/28/2025 04:06:01 AM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275' table='[Extract].[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]' type='table' />
+            <relation name='Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8' table='[Extract].[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]' type='table' />
+            <relation name='Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C' table='[Extract].[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]' type='table' />
+            <relation name='Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D' table='[Extract].[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]' type='table' />
+          </relation>
+          <cols>
+            <map key='[Greater trade: Openness to international trade expands markets, increases competition,]' value='[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D].[Greater trade: Openness to international trade expands markets, increases competition,]' />
+            <map key='[Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic]' value='[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C].[Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic]' />
+            <map key='[Higher per capita incomes: Freer economies tend to have higher average incomes and]' value='[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8].[Higher per capita incomes: Freer economies tend to have higher average incomes and]' />
+            <map key='[Rule of Law:]' value='[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275].[Rule of Law:]' />
+            <map key='[●​ (Page    1 Table  2)]' value='[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8].[●​]' />
+            <map key='[●​ (Page    2 Table  1)]' value='[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C].[●​]' />
+            <map key='[●​ (Page    2 Table  2)]' value='[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D].[●​]' />
+            <map key='[●​]' value='[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275].[●​]' />
+          </cols>
+          <refresh>
+            <refresh-event add-from-file-path='Page    1 Table  1+ (Measuring the pulse of prosperity- An Index of eco...)' increment-value='%null%' refresh-type='create' rows-inserted='36' timestamp-start='2025-06-28 04:06:00.543' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>●​</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[●​]</local-name>
+              <parent-name>[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]</parent-name>
+              <remote-alias>●​</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Page    1 Table  1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rule of Law:</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Rule of Law:]</local-name>
+              <parent-name>[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]</parent-name>
+              <remote-alias>Rule of Law:</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Page    1 Table  1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>●​</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[●​ (Page    1 Table  2)]</local-name>
+              <parent-name>[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]</parent-name>
+              <remote-alias>●​</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Page    1 Table  2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Higher per capita incomes: Freer economies tend to have higher average incomes and</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Higher per capita incomes: Freer economies tend to have higher average incomes and]</local-name>
+              <parent-name>[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]</parent-name>
+              <remote-alias>Higher per capita incomes: Freer economies tend to have higher average incomes and</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Page    1 Table  2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>●​</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[●​ (Page    2 Table  1)]</local-name>
+              <parent-name>[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]</parent-name>
+              <remote-alias>●​</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Page    2 Table  1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic]</local-name>
+              <parent-name>[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]</parent-name>
+              <remote-alias>Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Page    2 Table  1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>●​</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[●​ (Page    2 Table  2)]</local-name>
+              <parent-name>[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]</parent-name>
+              <remote-alias>●​</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Page    2 Table  2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Greater trade: Openness to international trade expands markets, increases competition,</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Greater trade: Openness to international trade expands markets, increases competition,]</local-name>
+              <parent-name>[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]</parent-name>
+              <remote-alias>Greater trade: Openness to international trade expands markets, increases competition,</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Page    2 Table  2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Page    1 Table  1' id='Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275'>
+            <properties context=''>
+              <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    1 Table  1' table='[&apos;Page    1 Table  1$&apos;]' type='table'>
+                <columns gridOrigin='A1:B16:no:A1:B16:0' header='yes' outcome='2'>
+                  <column datatype='string' name='●​' ordinal='0' />
+                  <column datatype='string' name='Rule of Law:' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275' table='[Extract].[Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275]' type='table' />
+            </properties>
+          </object>
+          <object caption='Page    1 Table  2' id='Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8'>
+            <properties context=''>
+              <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    1 Table  2' table='[&apos;Page    1 Table  2$&apos;]' type='table'>
+                <columns gridOrigin='A1:B8:no:A1:B8:0' header='yes' outcome='2'>
+                  <column datatype='string' name='●​' ordinal='0' />
+                  <column datatype='string' name='Higher per capita incomes: Freer economies tend to have higher average incomes and' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8' table='[Extract].[Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8]' type='table' />
+            </properties>
+          </object>
+          <object caption='Page    2 Table  1' id='Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C'>
+            <properties context=''>
+              <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    2 Table  1' table='[&apos;Page    2 Table  1$&apos;]' type='table'>
+                <columns gridOrigin='A1:B9:no:A1:B9:0' header='yes' outcome='2'>
+                  <column datatype='string' name='●​' ordinal='0' />
+                  <column datatype='string' name='Gross Domestic Product (GDP) and GDP per capita: Measures of overall economic' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C' table='[Extract].[Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C]' type='table' />
+            </properties>
+          </object>
+          <object caption='Page    2 Table  2' id='Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D'>
+            <properties context=''>
+              <relation connection='pdf.1w1o0bq1lch7cv1bqd61d0hex1k3' name='Page    2 Table  2' table='[&apos;Page    2 Table  2$&apos;]' type='table'>
+                <columns gridOrigin='A1:B7:no:A1:B7:0' header='yes' outcome='2'>
+                  <column datatype='string' name='●​' ordinal='0' />
+                  <column datatype='string' name='Greater trade: Openness to international trade expands markets, increases competition,' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D' table='[Extract].[Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[●​]' />
+              <expression op='[●​ (Page    1 Table  2)]' />
+            </expression>
+            <first-end-point object-id='Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275' />
+            <second-end-point object-id='Page    1 Table  2_9B6C593504F0483ABF90355B32DA85B8' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[●​]' />
+              <expression op='[●​ (Page    2 Table  1)]' />
+            </expression>
+            <first-end-point object-id='Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275' />
+            <second-end-point object-id='Page    2 Table  1_DF6E8D52F10C456C9D0B2E644E7E626C' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[●​]' />
+              <expression op='[●​ (Page    2 Table  2)]' />
+            </expression>
+            <first-end-point object-id='Page    1 Table  1_1A94165F7B2349D1A2B5895F77B8E275' />
+            <second-end-point object-id='Page    2 Table  2_C77E95A01FFA4D7AB14CE9D4C8C5284D' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E2F13F6D-8B93-4D4D-B8DC-0CF889324EA3}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{432AF1E3-E02F-4289-9F12-3C460F495088}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
